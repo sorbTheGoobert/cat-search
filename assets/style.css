@@ -20,33 +20,30 @@ body {
     flex-direction: column;
     min-height: 100vh;
     gap: 20px;
+    width: 100%;
 }
-label:last-of-type {
-    margin: 20px 0;
-    background-color: wheat;
-    padding: 20px 20px 20px 0;
-    border-radius: 0 15px 15px 0;
-    color: white;
-    display: flex;
-    gap: 10px;
-    flex-wrap: nowrap;
-}
-label:first-of-type {
+
+label {
     margin: 20px 0;
     background-color: wheat;
     padding: 20px;
-    border-radius: 15px 0 0 15px;
+    border-radius: 15px;
     color: white;
     display: flex;
     gap: 10px;
     flex-wrap: nowrap;
 }
 
+label div {
+    display: flex;
+    gap: 5px;
+}
+
 label button {
     color: wheat;
     background-color: white;
     border: 0px solid transparent;
-    border-radius:  5px;
+    border-radius: 5px;
 }
 
 label button:hover {
@@ -57,5 +54,16 @@ label input {
     color: wheat;
     background-color: white;
     border: 0px solid transparent;
-    border-radius:  5px;
+    border-radius: 5px;
+}
+
+label select {
+    color: wheat;
+    background-color: white;
+    border: 0px solid transparent;
+    border-radius: 5px;
+}
+
+.invisible {
+    display: none;
 }
