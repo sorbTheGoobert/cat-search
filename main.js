@@ -15,7 +15,6 @@ function changeSearchType() {
     } else if (searchType === "breed") {
         document.getElementById("breedSearch").classList.remove("invisible");
     }
-    console.log(searchType);
 }
 
 async function getData(type) {
